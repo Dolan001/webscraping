@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "capability": "webscraping",
+  "target_root": "apps/backend",
+  "backend_owners": {
+    "django-drf": ["models", "services", "selectors", "serializers", "views", "urls", "migrations", "tasks"],
+    "fastapi": ["models", "services", "repositories", "queries", "schemas", "dependencies", "routes", "migrations", "tasks"]
+  },
+  "responsibility_boundaries": ["orchestration", "navigation", "context_traversal", "extraction", "normalization", "validation", "persistence", "observability"],
+  "site_assets": ["adapter", "selectors_yaml", "parsers", "validators", "sanitized_fixtures", "tests"],
+  "required_evidence": [
+    ".ai/evidence/webscraping/backend.json",
+    ".ai/evidence/webscraping/integration.json",
+    ".ai/evidence/webscraping/testing.json"
+  ],
+  "forbidden_tracked_content": ["credentials", "cookies", "signed URLs", "full authenticated pages", "personal data captures", "ticket or barcode payloads", "generated browser profiles"]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "framework": "webscraping",
+  "format": "markdown-first",
+  "skills": [
+    {"name": "design-web-scraping", "path": "skills/design-web-scraping/SKILL.md"},
+    {"name": "discover-target-selectors", "path": "skills/discover-target-selectors/SKILL.md"},
+    {"name": "implement-web-scraping-backend", "path": "skills/implement-web-scraping-backend/SKILL.md"},
+    {"name": "repair-selector-drift", "path": "skills/repair-selector-drift/SKILL.md"},
+    {"name": "verify-web-scraping", "path": "skills/verify-web-scraping/SKILL.md"}
+  ]
+}
+
